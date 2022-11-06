@@ -6,6 +6,8 @@ import PlayerClass from "./Components/ex5/PlayerClass/PlayerClass";
 import PlayerFunction from "./Components/ex5/PlayerFunction/PlayerFunction";
 import CountdownClass from "./Components/ex6/CountdownClass/CountdownClass";
 import CountdownFucntion from "./Components/ex6/CountdownFucntion/CountdownFucntion";
+import ClockClass from "./Components/ex7/ClockClass/ClockClass";
+import ClockFunction from "./Components/ex7/ClockFunction/ClockFunction";
 
 function App() {
 
@@ -21,10 +23,14 @@ function App() {
             {/*Exercises 3-4*/}
             {/*<HelloFunction txt={'hello from fc as props'}/>*/}
             {/*<HelloClass txt={'hello from cc as props'}/>*/}
-            {/*Exercises 5*/}
+            {/*Exercise 5*/}
             {/*<PlayerClass goals={750} name={'Messi'}/>*/}
             {/*<PlayerFunction num={800} name={'CR7'}/>*/}
-            {flag && <CountdownFucntion ticks={5} cb={turn}/>}
+            {/**Exercise 6*/}
+            {/*{flag && <CountdownFucntion ticks={5} cb={turn}/>}*/}
+            {/**Exercise 7*/}
+            <ClockClass/>
+            <ClockFunction/>
         </div>
     );
 }
